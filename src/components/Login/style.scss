@@ -1,0 +1,232 @@
+@import './../../scss/all.scss';
+
+.login {
+    background-color: $color-4;
+    
+
+    height: 100%;
+    width: 100%;
+    padding: 80px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    overflow: hidden;
+
+    .modal {
+        background-color: $neutral-3;
+        
+
+        border-radius: 16px;
+        box-shadow:  20px 20px 60px #bebebe;
+        height: 600px;
+        width: 1000px;
+        position: relative;
+        overflow: hidden;
+
+
+        &__left {
+            background-color: $neutral-3;
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            left: 0;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .form {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 15px;
+
+                h2 {
+                    font-size: 42px;
+                    font-weight: bold;
+                    line-height: 50px;
+                    margin-bottom: 30px;
+                }
+
+                .input {
+                    background-color: rgba($neutral-6, 1);
+                    padding: 10px 15px;
+                    border-radius: 8px;
+                    font-size: 16px;
+                    width: 350px;
+                }
+
+                .forgot {
+                    width: 100%;
+                    padding: 0 15px;
+                    display: flex;
+                    
+                    p {
+                        color: $text-color-light;
+                        cursor: pointer;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                .remember {
+                    width: 100%;
+                    padding: 0 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 10px;
+                    margin: 0 0 10px;
+
+                    p {
+                        color: $text-color-light;
+                    }
+                }
+
+                .social {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    gap: 5px;
+                    margin: 10px 0
+                }
+
+                .other {
+                    margin-top: 30px;
+                }
+
+                button {
+                    @include button($cta-primary,'large');
+                }
+            }
+        }
+
+        &__right {
+            background-color: $neutral-3;
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            right: 0;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .form {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 15px;
+
+                h2 {
+                    font-size: 42px;
+                    font-weight: bold;
+                    line-height: 50px;
+                    margin-bottom: 30px;
+                }
+
+                .input {
+                    background-color: rgba($neutral-6, 1);
+                    padding: 10px 15px;
+                    border-radius: 8px;
+                    font-size: 16px;
+                    width: 350px;
+                }
+
+                .forgot {
+                    width: 100%;
+                    padding: 0 15px;
+                    display: flex;
+                    
+                    p {
+                        color: $text-color-light;
+                        cursor: pointer;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                .remember {
+                    width: 100%;
+                    padding: 0 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 10px;
+                    margin: 0 0 10px;
+
+                    p {
+                        color: $text-color-light;
+                    }
+                }
+
+                .social {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    gap: 5px;
+                    margin: 10px 0
+                }
+
+                .other {
+                    margin-top: 30px;
+                }
+
+                button {
+                    @include button($cta-primary,'large');
+                }
+            }
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 50%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 100;
+            transition: 300ms all ease-in-out;
+            
+            &__container {
+                transition: 300ms all ease-in-out;
+                position: relative;
+                background-position: 0 0;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 100%;
+                left: -100%;
+                width: 200%;
+
+                &--left {
+                    position: absolute;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba($color: $color-1, $alpha: .3)
+                }
+            }
+        }
+    }
+
+    &.active {
+        .overlay {
+            left: 0%;
+
+            &__container {
+                left: 0%;
+            }
+        }
+    }
+}

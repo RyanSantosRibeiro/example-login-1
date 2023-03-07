@@ -1,0 +1,42 @@
+{
+    "name":"Tortas",
+    "color": "#540b0e",
+    "category": [
+        {
+            "id": 1,
+            "name": "Torta Pequena (G32)",
+            "total": 0,
+            "items": [
+                {
+                    "id":1,
+                    "name":"Torta pequena rende de 5 a 10 pedaços",
+                    "price": 2990
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Torta Média",
+            "total": 0,
+            "items": [
+                {
+                    "id":1,
+                    "name":"Torta Média rende de 10 a 15 pedaços",
+                    "price": 6490
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Torta Grande",
+            "total": 0,
+            "items": [
+                {
+                    "id":1,
+                    "name":"Torta Grande rende de 20 a 25 pedaços",
+                    "price": 7490
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,648 @@
+{
+    "name":"Menu",
+    "color": "#540b0e",
+    "category": [
+        {
+            "id": 1,
+            "name": "COMBOS CAFÉ DA MANHÃ",
+            "total": 0,
+            "items": [
+                {
+                    "id":1,
+                    "name":"CAFÉ PEDRA BONITA",
+                    "description": "01 - Pão francês c/ Manteiga e queijo",
+                    "description": "01 - Média 200ml (Café, Café c/Leite)",
+                    "price": 1350
+                },
+                {
+                    "id":2,
+                    "name":"CAFÉ BRASILEIRINHO",
+                    "description": "01 - Pão Francês c/ Polenguinho",
+                    "description": "01 - Misto quente",
+                    "description": "01 - Média 200ml (Café, Café c/ leite)",
+                    "description": "01 - Suco  Natural de Laranja 300 ml",
+                    "price": 2590
+                },
+                {
+                    "id":3,
+                    "name":"CAFÉ LADY DAY",
+                    "description": "02 - Pães Francês c/ Manteiga na chapa.",
+                    "description": "01 - Waffer (manteiga, mel ou geléia)",
+                    "description": "01 - Omelete simples",
+                    "description": "02 - Médias 200ml (Café, Café c/ Leite)",
+                    "description": "02 - Sucos de Laranja 300 ml",
+                    "price": 4690
+                },
+                {
+                    "id":4,
+                    "name":"CAFÉ MINEIRINHO",
+                    "description": "01 - Tapioca simples",
+                    "description": "5 - Pães de queijo (bolinha)",
+                    "description": "02 - Cafezinho ou pingado",
+                    
+                    "price": 1700
+                },
+                {
+                    "id":5,
+                    "name":"CAFÉ AMERICANO",
+                    "description": "04 - Panquecas",
+                    "description": "02 - ovos",
+                    "description": "06 - fatias de bacon",
+                    "description": "02 – Média de café",
+                    "price": 2890
+                },
+                {
+                    "id":6,
+                    "name":"CAFÉ AMERICANO.",
+                    "description": "02 - Panquecas",
+                    "description": "01 - ovo",
+                    "description": "03 - fatias de bacon",
+                    "description": "01 – Média de café",
+                    "price": 1490
+                }
+                
+            ]
+        },
+        {
+            "id": 11,
+            "name": " HAMBÚRGUER",
+            "total": 0,
+            "items": [
+                {
+                    "id":1,
+                    "name":"Simples c/ Salada",
+                    "description": " Pão, carne hambúrguer, molho, Salada",
+                    "price": 790
+                },
+                {
+                    "id":2,
+                    "name":" Cheese Salada",
+                    "description": "Pão, carne hambúrguer, queijo, Salada ",
+                    "price": 890
+                },
+                {
+                    "id":3,
+                    "name":" Cheese Egg",
+                    "description": "Pão, carne de hambúrguer, queijo, ovo, molho, alface e tomate",
+                    "price": 1090
+                },
+                {
+                    "id":4,
+                    "name":"Cheese Bacon",
+                    "description": "Pão, carne de hambúrguer, queijo, bacon, molho, alface e tomate",
+                    "price": 1190
+                },
+                {
+                    "id":5,
+                    "name":"Cheese Big Day",
+                    "description": "Pão especial, carne de hambúrguer, queijo,bacon, ovo presunto,  molho,  alface e tomate",
+                    "price": 1490
+                },
+                {
+                    "id":6,
+                    "name":"Cheese Double Big Day",
+                    "description": "Pão especial, duas carnes de hambúrguer, dois queijos, dois presuntos,bacon, ovo, molho, alface e tomate",
+                    "price": 1690
+                },
+                {
+                    "id":7,
+                    "name":"Pão c/ Lingüiça",
+                    "description": "Pão de hot dog, lingüiça Suína, tomate e cebola -  *Queijo opcional",
+                    "price": 1290
+                }
+                
+            ]
+        },
+        {
+            "id": 4,
+            "name": "BEBIDAS QUENTES",
+            "total": 0,
+            "items": [
+                {
+                    "id":1,
+                    "name":"Café comum / Pingado",
+                    "price": 250
+                },
+                {
+                    "id":2,
+                    "name":"Média de Café Cremoso",
+                    "price": 690
+                },
+                {
+                    "id":3,
+                    "name":"Média café c/ leite",
+                    "price": 450
+                },
+                {
+                    "id":4,
+                    "name":"Média de Leite c/ Nescau",
+                    "price": 550
+                },
+                {
+                    "id":5,
+                    "name":"Média de Capuccino",
+                    "price": 690
+                },
+                {
+                    "id":6,
+                    "name":"Bebidas especiais três corações 80ml.",
+                    "price": 350
+                },
+                {
+                    "id":7,
+                    "name":"Bebidas especiais três corações 160ml.",
+                    "price": 590
+                },
+                {
+                    "id":8,
+                    "name":"Café expresso três corações 50ml",
+                    "price": 300
+                },
+                {
+                    "id":8,
+                    "name":"Café expresso três corações 100ml",
+                    "price": 490
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "BEBIDAS GELADAS",
+            "total": 0,
+            "items": [
+                {
+                    "id":1,
+                    "name":"Água s/gás 500ml",
+                    "price": 300
+                },
+                {
+                    "id":2,
+                    "name":"Água Tônica Lata",
+                    "price": 550
+                },
+                {
+                    "id":3,
+                    "name":"Coca Lata Mini",
+                    "price": 450
+                },
+                {
+                    "id":4,
+                    "name":"Coca Lata",
+                    "price": 550
+                },
+                {
+                    "id":5,
+                    "name":"Coca 600ml",
+                    "price": 790
+                },
+                {
+                    "id":6,
+                    "name":"Fanta Lata",
+                    "price": 500
+                },
+                {
+                    "id":7,
+                    "name":"Guaraná Antarc. Lata",
+                    "price": 500
+                },
+                {
+                    "id":8,
+                    "name":"Guaraná Antarc 600ml",
+                    "price": 690
+                },
+                {
+                    "id":9,
+                    "name":"Gatorade 500ml",
+                    "price": 990
+                },
+                {
+                    "id":10,
+                    "name":"H2o 500ml",
+                    "price": 550
+                },
+                {
+                    "id":11,
+                    "name":"Fanta sabores 600ml.",
+                    "price": 690
+                },
+                {
+                    "id":12,
+                    "name":"Matte Copo 300ml.",
+                    "price": 450
+                },
+                {
+                    "id":13,
+                    "name":"Matte Copo 300ml.",
+                    "price": 450
+                },
+                {
+                    "id":14,
+                    "name":"Matte Garrafa 300ml.",
+                    "price": 450
+                },
+                {
+                    "id":15,
+                    "name":"Mineirinho 350ml.",
+                    "price": 500
+                },
+                {
+                    "id":16,
+                    "name":"Mineirinho 500ml.",
+                    "price": 650
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "PIZZAS",
+            "total": 0,
+            "items": [
+                {
+                    "id":1,
+                    "name":"Pizza Mussarela",
+                    "description":"Molho, Mussarela e orégano.",
+                    "price": 100
+                },
+                {
+                    "id":2,
+                    "name":"Pizza Marguerita",
+                    "description":"Molho, Mussarela, Tomate, Manjericão e orégano",
+                    "price": 590
+                },
+                {
+                    "id":3,
+                    "name":"Pizza Calabresa",
+                    "description":"Molho, Mussarela, Calabresa , Cebola e orégano",
+                    "price": 300
+                },
+                {
+                    "id":4,
+                    "name":"Pizza Portuguesa",
+                    "description":"Molho, Mussarela, Presunto, Ovo, Tomate, Cebola, pimentão, Azeitonas e Orégano",
+                    "price": 490
+                },
+                {
+                    "id":5,
+                    "name":"Pizza Portuguesa",
+                    "description":"Molho, Mussarela, Presunto, Ovo, Tomate, Cebola, pimentão, Azeitonas e Orégano",
+                    "price": 490
+                },
+                {
+                    "id":6,
+                    "name":"Pizza Frango",
+                    "description":"Molho, Mussarela, Frango desfiado, Catupiry, Tomate, Azeitonas e Orégano",
+                    "price": 490
+                },
+                {
+                    "id":7,
+                    "name":"Pizza Carne Seca",
+                    "description":"Molho, Mussarela, Carne Seca, Catupiry, Cebola, Azeitonas e Orégano",
+                    "price": 490
+                },
+                {
+                    "id":8,
+                    "name":"Pizza prestigio",
+                    "description":"Mussarela , chocolate branco, leite condensado e coco",
+                    "price": 490
+                },
+                {
+                    "id":9,
+                    "name":"Pizza Banana",
+                    "description":"Mussarela, banana, canela c/ açúcar",
+                    "price": 490
+                },
+                {
+                    "id":10,
+                    "name":"Romeu e Julieta",
+                    "description":"Mussarela, queijo minas e goiabada",
+                    "price": 490
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "CAFÉ EXPRESSO",
+            "total": 0,
+            "items": [
+                {
+                    "id":1,
+                    "name":"Bebidas especiais três corações 80ml",
+                    "price": 350
+                },
+                {
+                    "id":2,
+                    "name":"Bebidas especiais três corações 160ml. ",
+                    "price": 590
+                },
+                {
+                    "id":3,
+                    "name":"Café expresso três corações 50ml",
+                    "price": 300
+                },
+                {
+                    "id":4,
+                    "name":"Café expresso três corações 100ml",
+                    "price": 490
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "SUCOS  & VITAMINAS",
+            "total": 0,
+            "items": [
+                {
+                    "id":1,
+                    "name":"S. Laranja Natural 300ml",
+                    "price": 690
+                },
+                {
+                    "id":2,
+                    "name":"Vitamina Simples 300ml",
+                    "price": 790
+                },
+                {
+                    "id":3,
+                    "name":"Vitamina de Açaí 300ml",
+                    "price": 990
+                },
+                {
+                    "id":4,
+                    "name":"Vitamina com frutas 300ml",
+                    "price": 890
+                },
+                {
+                    "id":5,
+                    "name":"Suco Tropical 300ml",
+                    "description":"(água de coco + morango)",
+                    "price": 750
+                },
+                {
+                    "id":6,
+                    "name":"Suco Refrescante 300ml.",
+                    "description":"(Laranja + morango + gengibre)",
+                    "price": 890
+                },
+                {
+                    "id":7,
+                    "name":"Suco Refrescante 2 300ml",
+                    "description":"(Abacaxi+ morango + hortelã)",
+                    "price": 890
+                },
+                {
+                    "id":8,
+                    "name":"Suco Energizante 300ml",
+                    "description":"(Beterraba + cenoura + laranja + gengibre)",
+                    "price": 790
+                },
+                {
+                    "id":9,
+                    "name":"Suco Detox 1 300ml",
+                    "description":"(Açai + Melancia)",
+                    "price": 890
+                },
+                {
+                    "id":10,
+                    "name":"Suco Detox 2 300ml",
+                    "description":"(Melancia + gengibre + couve)",
+                    "price": 890
+                }
+                
+            ]
+        },
+        {
+            "id": 8,
+            "name": "LANCHES",
+            "total": 0,
+            "items": [
+                {
+                    "id":1,
+                    "name":"Batata Frita Turbinada G",
+                    "price": 1590
+                },
+                {
+                    "id":2,
+                    "name":"Batata Frita Turbinada M",
+                    "price": 1090
+                },
+                {
+                    "id":3,
+                    "name":"Cheese Salada",
+                    "price": 890
+                },
+                {
+                    "id":4,
+                    "name":"Chesse Egg",
+                    "price": 1090
+                },
+                {
+                    "id":5,
+                    "name":"Cheese Bacon",
+                    "price": 1190
+                },
+                {
+                    "id":6,
+                    "name":"Cheese Double Big Day",
+                    "price": 1690
+                },
+                {
+                    "id":7,
+                    "name":"Hambúrguer simples  c/Salada",
+                    "price": 790
+                },
+                {
+                    "id":8,
+                    "name":"Hambúrguer de Forno",
+                    "price": 890
+                },
+                {
+                    "id":9,
+                    "name":"Misto quente",
+                    "price": 950
+                },
+                {
+                    "id":10,
+                    "name":"Misto quente Doce",
+                    "price": 950
+                },
+                {
+                    "id":11,
+                    "name":"Pão c/ Manteiga",
+                    "price": 290
+                },
+                {
+                    "id":12,
+                    "name":"Pão c/ Polenguinho",
+                    "price": 590
+                },
+                {
+                    "id":13,
+                    "name":"Pão  c/ Mortadela",
+                    "price": 690
+                },
+                {
+                    "id":14,
+                    "name":"Pão c/ Presunto",
+                    "price": 990
+                },
+                {
+                    "id":15,
+                    "name":"Pão c/ Ovo ",
+                    "price": 690
+                },
+                {
+                    "id":16,
+                    "name":"Pão c/ Ovo, Bacon e Salada",
+                    "price": 890
+                },
+                {
+                    "id":17,
+                    "name":"Pão c/ Lingüiça",
+                    "price": 1290
+                },
+                {
+                    "id":18,
+                    "name":"Pastelão ( fatia )",
+                    "price": 890
+                },
+                {
+                    "id":19,
+                    "name":"Pastelzinho (unid.)",
+                    "price": 200
+                },
+                {
+                    "id":20,
+                    "name":"Pizza ( Fatia )",
+                    "price": 690
+                },
+                {
+                    "id":21,
+                    "name":"Queijo Quente",
+                    "price": 950
+                },
+                {
+                    "id":22,
+                    "name":"Sanduíche Natural",
+                    "price": 1190
+                },
+                {
+                    "id":23,
+                    "name":"Salgado Simples",
+                    "description":"( Coxinha, Kibe, Risole, Enroladinho queijo/presunto, Italianos )",
+                    "price": 690
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "OUTROS LANCHES",
+            "total": 0,
+            "items": [
+                {
+                    "id":1,
+                    "name":"Tapioca Simples",
+                    "description": "(C/ manteiga )",
+                    "price": 690
+                },
+                {
+                    "id":2,
+                    "name":"Tapioca Especial",
+                    "description": "(Queijo c/ presunto / Queijo c/ peito peru ",
+                    "description": "Frango c/ Catupiry",
+                    "description": "(Queijo branco c/ tomate  e orégano)",
+                    "price": 1190
+                },
+                {
+                    "id":3,
+                    "name":"Tapioca doce",
+                    "description": "( Banana c/ leite condensado, Romeu e Julieta, Prestigio )",
+                    "price": 1190
+                },
+                {
+                    "id":4,
+                    "name":"Omelete",
+                    
+                    "price": 690
+                },
+                {
+                    "id":5,
+                    "name":"Omelete Completo",
+                    "description": "( Tomate, cebola, bacon, queijo e presunto)",
+                    "price": 990
+                },
+                {
+                    "id":6,
+                    "name":"Panqueca tradicional Salgada",
+                    "description": "Bolonhesa, frango c/ catupiry, queijo c/ presunto",
+                    "price": 890
+                },
+                {
+                    "id":7,
+                    "name":"Panqueca  tradicional Doce",
+                    "description": "banana c/ creme, Romeu e Julieta, Prestigio",
+                    "price": 890
+                },
+                {
+                    "id":8,
+                    "name":"Panqueca  Americana",
+                    "description": "Ovos c/ baycon, Mel com Aveia",
+                    "price": 990
+                },
+                {
+                    "id":9,
+                    "name":"Waffer c/ manteiga",
+                    "price": 590
+                },
+                {
+                    "id":10,
+                    "name":"Waffer c/ Geleia ou Mel",
+                    "price": 790
+                },
+                {
+                    "id":11,
+                    "name":"Waffer c/ Sorvete e Cobertura",
+                    "price": 1390
+                }
+                
+            ]
+        },
+        {
+            "id": 2,
+            "name": "AÇAI E SORVETE",
+            "total": 0,
+            "items": [
+                {
+                    "id":1,
+                    "name":"Açaí 200 ml",
+                    "price": 550
+                },
+                {
+                    "id":2,
+                    "name":"Açaí 300 ml",
+                    "price": 690
+                },
+                {
+                    "id":3,
+                    "name":"Açaí 400 ml",
+                    "price": 890
+                },
+                {
+                    "id":4,
+                    "name":"Açaí 500 ml",
+                    "price": 1090
+                },
+                {
+                    "id":5,
+                    "name":"Açaí Pote  1 lt",
+                    "price": 2150
+                },
+                {
+                    "id":6,
+                    "name":"Milk Shake 300ml",
+                    "description":"Chocolate, Morango, Creme, Açaí.",
+                    "price": 1490
+                }
+            ]
+        }
+    ]
+}

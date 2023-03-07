@@ -1,0 +1,288 @@
+{
+    "name":"Kit Festa",
+    "color": "#540b0e",
+    "category": [
+        {
+            "id": 1,
+            "name": "Kit Fest Day (5 pessoas)",
+            "total": 5000,
+            "items": [
+                {
+                    "id":1,
+                    "name":"01 - Torta Pequena",
+                    "price": 0
+                },
+                {
+                    "id":2,
+                    "name":"30 - Salgadinhos",
+                    "price": 0
+                },
+                {
+                    "id":3,
+                    "name":"01 - Refrigerante de 2lts",
+                    "price": 0
+                },
+                {
+                    "id":4,
+                    "name":"10 - Copos Descartáveis",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Kit SOS Day (10 pessoas)",
+            "total": 5000,
+            "items": [
+                {
+                    "id":1,
+                    "name":"Kit SOS Day (10 pessoas)",
+                    "price": 0
+                },
+                {
+                    "id":2,
+                    "name":"50 - Salgadinhos",
+                    "price": 0
+                },
+                {
+                    "id":3,
+                    "name":"20 - Docinhos ",
+                    "price": 0
+                },
+                {
+                    "id":4,
+                    "name":"02 - Refrigerantes 2 lts",
+                    "price": 0
+                },
+                {
+                    "id":5,
+                    "name":"02 - Refrigerantes 2 lts",
+                    "price": 0
+                },
+                {
+                    "id":6,
+                    "name":"10 - Copos Descartáveis",
+                    "price": 0
+                },
+                {
+                    "id":7,
+                    "name":"01 - Pacote de Guardanapo ",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Kit 01 (15 pessoas)",
+            "total": 5000,
+            "items": [
+                {
+                    "id":1,
+                    "name":"01 - Torta Média",
+                    "price": 0
+                },
+                {
+                    "id":2,
+                    "name":"75 - Salgadinhos",
+                    "price": 0
+                },
+                {
+                    "id":3,
+                    "name":"20 - Docinhos ",
+                    "price": 0
+                },
+                {
+                    "id":4,
+                    "name":"02 - Refrigerantes 2 lts",
+                    "price": 0
+                },
+                {
+                    "id":5,
+                    "name":"15 - Copos Descartáveis",
+                    "price": 0
+                },
+                {
+                    "id":6,
+                    "name":"01 - Pacote de Guardanapo ",
+                    "price": 15990
+                }
+                
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Kit 02 (25 pessoas)",
+            "total": 5000,
+            "items": [
+                {
+                    "id":1,
+                    "name":"01 - Torta Grande",
+                    "price": 0
+                },
+                {
+                    "id":2,
+                    "name":"120 - Salgadinhos",
+                    "price": 0
+                },
+                {
+                    "id":3,
+                    "name":"50 - Docinhos ",
+                    "price": 0
+                },
+                {
+                    "id":4,
+                    "name":"03 - Refrigerantes 2 lts",
+                    "price": 0
+                },
+                {
+                    "id":5,
+                    "name":"25 - Copos Descartáveis",
+                    "price": 0
+                },
+                {
+                    "id":6,
+                    "name":"02 - Pacote de Guardanapo",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Kit 03 (35 pessoas)",
+            "total": 5000,
+            "items": [
+                {
+                    "id":1,
+                    "name":"01 - Torta Grande Redonda",
+                    "price": 0
+                },
+                {
+                    "id":2,
+                    "name":"150 - Salgadinhos",
+                    "price": 0
+                },
+                {
+                    "id":3,
+                    "name":"70 - Docinhos ",
+                    "price": 0
+                },
+                {
+                    "id":4,
+                    "name":"05 - Refrigerantes 2 lts",
+                    "price": 0
+                },
+                {
+                    "id":5,
+                    "name":"02 - Pacote de Guardanapo ",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Kit 04 (50 pessoas)",
+            "total": 5000,
+            "items": [
+                {
+                    "id":1,
+                    "name":"01 - Torta N° 05",
+                    "price": 0
+                },
+                {
+                    "id":2,
+                    "name":"200 - Salgadinhos",
+                    "price": 0
+                },
+                {
+                    "id":3,
+                    "name":"80 - Docinhos",
+                    "price": 0
+                },
+                {
+                    "id":4,
+                    "name":"06 - Refrigerantes 2 lts",
+                    "price": 0
+                },
+                {
+                    "id":5,
+                    "name":"03 - Pacote de Guardanapo ",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Kit 05 (70 pessoas)",
+            "total": 5000,
+            "items": [
+                {
+                    "id":1,
+                    "name":"01 - Torta N° 07",
+                    "price": 0
+                },
+                {
+                    "id":2,
+                    "name":"350 - Salgadinhos",
+                    "price": 0
+                },
+                {
+                    "id":3,
+                    "name":"100 - Docinhos",
+                    "price": 0
+                },
+                {
+                    "id":4,
+                    "name":"07 - Refrigerantes 2 lts",
+                    "price": 0
+                },
+                {
+                    "id":5,
+                    "name":"70 - Copos Descartáveis",
+                    "price": 0
+                },
+                {
+                    "id":6,
+                    "name":"03 - Pacote de Guardanapo ",
+                    "price": 0
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Kit 06 (100 pessoas)",
+            "total": 5000,
+            "items": [
+                {
+                    "id":1,
+                    "name":"01 - Torta N° 12",
+                    "price": 0
+                },
+                {
+                    "id":2,
+                    "name":"500 - Salgadinhos",
+                    "price": 0
+                },
+                {
+                    "id":3,
+                    "name":"150 - Docinhos",
+                    "price": 0
+                },
+                {
+                    "id":4,
+                    "name":"10 - Refrigerantes 2 lts",
+                    "price": 0
+                },
+                {
+                    "id":5,
+                    "name":"100 - Copos Descartáveis",
+                    "price": 0
+                },
+                {
+                    "id":6,
+                    "name":"05 - Pacote de Guardanapo",
+                    "price": 0
+                }
+            ]
+        }
+    ]
+}
